@@ -1,0 +1,27 @@
+{
+  "name": "csphoenix-backend",
+  "version": "2.5",
+  "description": "CSPhoenix Cybersecurity Intelligence Platform – Backend",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "install-browser": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.40.0",
+    "puppeteer": "^21.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "author": "Phoenix Thabiso Group (Pty) Ltd",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
